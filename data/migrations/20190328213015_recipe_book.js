@@ -81,6 +81,5 @@ exports.down = knex => (
     .dropTableIfExists('recipes')
     .dropTableIfExists('ingredients')
     .dropTableIfExists('measurements')
-    .dropTableIfExists('measurements')
     .dropTableIfExists('recipes_ingredients')
 )
